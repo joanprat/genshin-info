@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap');
+/* Global */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f100;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+body {
+    background: #393E46 url(./img/bg-default.png) fixed;
+    background-size: cover;
+    width: 100%;
+    transition: 0.5s;
+}
+main {
+  font-family: 'Poppins', sans-serif;
+  color: #F4F4F4;
+}
+/* Navigation */
+.custom-navbar {
+    background-color: #393E46;
+    border-bottom: 5px solid #F4F4F4;
+}
+.custom-navbar img {
+    width: 50%;
+}
+.custom-navbar span {
+  font-size: 2em;
+}
+.custom-navbar h5 {
+  font-weight: 900;
+}
+.modal p, h5 {
+  color: #393E46 !important;
+}
+.modal a {
+  color: #393e4678;
+  text-decoration: none;
+  font-weight: 700;
+  transition: 0.5s;
+}
+.modal a:hover {
+  color: #393E46;
+}
+.modal button {
+  color: #393E46;
+  background-color: #F4F4F4 !important;
+}
+
+.custom-navbar button {
+  color: #F4F4F4;
+  font-weight: 700;
+  background-color: #393E46;
+  border: 2px solid #F4F4F4;
+}
+
+.custom-navbar button:hover {
+  color: #393E46;
+  font-weight: 700;
+  background-color: #F4F4F4;
+  border-color: #F4F4F4;
+}
+/* Characters */
+.char-card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    filter: grayscale(1);
+    transition: 0.3s;
+}
+.char-card img:hover{
+  filter: grayscale(0);
+  cursor: pointer;
+}
+.overflow-scroll {
+    overflow: scroll;
+    overflow-y: hidden;
+}
+.bg-pyro {
+  background-color: #ef7838;
+}
+.bg-hydro {
+  background-color: #4CC2F1;
+}
+.bg-anemo {
+  background-color: #74C2A8;
+}
+.bg-electro {
+  background-color: #AF8EC1;
+}
+.bg-dendro {
+  background-color: #A5C83B;
+}
+.bg-cryo {
+  background-color: #9FD6E3;
+}
+.bg-geo {
+  background-color: #FAB632;
+}
+
+.pyro {
+  border-left: 10px solid #ef7838 !important;
+}
+.hydro {
+  border-left: 10px solid #4CC2F1 !important;
+}
+.anemo {
+  border-left: 10px solid #74C2A8 !important;
+}
+.electro {
+  border-left: 10px solid #AF8EC1 !important;
+}
+.dendro {
+  border-left: 10px solid #A5C83B !important;
+}
+.cryo {
+  border-left: 10px solid #9FD6E3 !important;
+}
+.geo {
+  border-left: 10px solid #FAB632 !important;
+}
+
+/* Character Details */
+.character-info {
+  margin-bottom: 4em;
+}
+.character-details img{
+  width: 100%;
+}
+.character-details h2 {
+  font-size: 2.5em;
+  font-weight: 700;
+  padding-left: 0.5em;
+}
+.character-details p{
+  font-size: 1.5em;
+  font-weight: 400;
+}
+.stars {
+  width: 50% !important;
+}
+.vision {
+  width: 70% !important;
+}
+.character-data {
+  margin-bottom: 8em;
+}
+.character-data img {
+  cursor: pointer;
+  opacity: 50%;
+}
+.img-active {
+  opacity: 100% !important;
+}
+.character-data .name {
+  font-size: 2em;
+  font-weight: 900;
+  margin: 0px;
+}
+.character-data .type {
+  font-size: 1em;
+  font-weight: 600;
+  color: #f4f4f47b;
+}
+/* Footer */
+footer {
+  background-color: #393E46;
+  border-top: 5px solid #F4F4F4;
+}
+footer img {
+  width: 12%;
+}
